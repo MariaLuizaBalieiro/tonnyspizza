@@ -1,0 +1,95 @@
+body {
+    background-image: url(../img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 24px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body::after {
+    position: absolute;
+    content: " ";
+    inset: 0;
+    background: linear-gradient(0deg, #fff0 0%, #f27706 100%);
+    z-index: -1;
+}
+
+header {
+    height: 150px;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.content-container {
+    color: #fff;
+}
+
+.content-container h1 {
+    width: 230px;
+}
+
+.content-container p {
+    width: 300px;
+}
+.access{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: 0;
+}
+.input-info{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+::placeholder{
+    color: #fff;
+}
+.botao-login{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.botao-login p{
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    font-size: 16px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+    color: #fff;
+    gap: 13px;
+}
+footer p{
+    font-weight: 200;
+    font-size: 14px;
+}
+footer h3{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+}
