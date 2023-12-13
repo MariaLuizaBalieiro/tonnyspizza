@@ -59,7 +59,7 @@ main .categories, .favoritePizza{
     gap: 11px;
 }
 
-/* ✿ */
+
 main .categories div{
     display: flex;
     gap: 12px;
